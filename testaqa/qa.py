@@ -129,7 +129,7 @@ fruits = ["apple", "banana", "cherry"]
 fruits.append("orange")
 print(fruits) # Вывод ['apple', 'banana', 'cherry', 'orange']
 
-# Задача 26 (Условные выражения)
+# Задача 21 (Условные выражения)
 # Напиши код, который проверяет, является ли число 10 чётным, и выводит True или False.
 print(10 % 2 == 0) # Вывод True
 print(11 % 2 == 0) # Вывод False
