@@ -99,13 +99,37 @@ print (temperatura) # Вывод 20
 # Задача 17 (Сравнение строк)
 # Проверь, содержится ли подстрока "fox" в строке "The quick brown fox jumps".
 text = "The quick brown fox jumps"
-print ("fox" in "The quick brown fox jumps") # Вывод True
+print("fox" in text) # Вывод True
+print("foc" in text) # Вывод False
 
-text = "The quick brown fox jumps"
-print ("foc" in "The quick brown fox jumps") # Вывод False
+# Задача 18 (Преобразование типов)
+# Преобразуй список ["1", "2", "3"] в список чисел [1, 2, 3] и выведи его.
+my_list = ["1", "2", "3"]
+new_list = list(map(int, ["1", "2", "3"]))
+print(new_list) # Вывод [1, 2, 3]
 
+# Задача 19 (Логические операции)
+# Даны две переменные:
+a = True
+b = False
+# Выведи результат операций:
+a and b
+a or b
+not a
 
+print(a and b) # Вывод False
+print(a or b)  # Вывод True
+print(not a)   # Вывод False
 
+# Задача 20(Работа со списками) fruits = ["apple", "banana", "cherry"]
+# Добавь в конец списка элемент "orange".
+# Выведи обновлённый список.
 
+fruits = ["apple", "banana", "cherry"]
+fruits.append("orange")
+print(fruits) # Вывод ['apple', 'banana', 'cherry', 'orange']
 
-
+# Задача 26 (Условные выражения)
+# Напиши код, который проверяет, является ли число 10 чётным, и выводит True или False.
+print(10 % 2 == 0) # Вывод True
+print(11 % 2 == 0) # Вывод False
