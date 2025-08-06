@@ -1,7 +1,5 @@
 # Задача 1 (Арифметические операции)
 # Напиши код, который вычисляет сумму чисел 8 и 3, а затем выводит результат.
-from curses import wrapper
-from tkinter.font import names
 
 result = 8 + 3
 print(result) #Вывод 11
@@ -223,7 +221,7 @@ print(new_text) # Вывод Python
 # Задача 34
 # Создай список numbers с элементами 1, 2, 3.
 # Добавь в него элемент 4 с помощью метода списка и выведи обновленный список
-numbers = [1, 2, 3,]
+numbers = [1, 2, 3]
 numbers.append(4)
 print(numbers) # Вывод [1, 2, 3, 4]
 
@@ -1384,8 +1382,69 @@ class Circle:
 my_circle = Circle(5)
 print(my_circle.area()) # Вывод 78.5
 
+# Задача 148
+# Создай класс Animal с атрибутами species (вид) и name (имя).
+# Добавь метод speak(), который выводит строку:
+# "<name> — это <species>, и он издаёт звук!"
+# Создай объект класса Animal и вызови метод speak().
+class Animal:
+    def __init__(self, species, name):
+        self.species = species
+        self.name = name
+
+    def speak(self):
+        print(f"{self.species} - это {self.name}, и он издаёт звук!")
 
 
+animal = Animal("Жизнь", "драйв")
+animal.speak() #Вывод Жизнь - это драйв, и он издаёт звук!
+
+# Задача 149
+# Создай класс Book с атрибутами title (название) и author (автор).
+# Добавь метод show_info, который выводит строку вида:
+# "<title>" написана автором <author>.
+# Создай объект книги и вызови метод show_info.
+class Book:
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
+
+    def show_info(self):
+        print(f"{self.title} написана автором {self.author}.")
+book = Book("Война и мир","Толстой")
+book.show_info() # Вывод Война и мир написана автором Толстой.
+
+# Задача 150
+# Создай базовый класс Animal с методом speak, который выводит "Животное издаёт звук".
+# Затем создай подкласс Dog, который наследует Animal.
+# В классе Dog переопредели метод speak так, чтобы он выводил "Собака лает".
+# Создай объект класса Dog и вызови у него метод speak
+class Animal:
+        def speak(self):
+            print(f"Животное издаёт звук")
+
+class Dog(Animal):
+       def speak(self):
+           print(f"Собака лает")
+
+dog = Dog()
+dog.speak() #Вывод Собака лает
+
+# Задача 151
+# Создай родительский класс Vehicle с методом move, который выводит "Транспорт едет".
+# Затем создай дочерний класс Car, который наследуется от Vehicle.
+# Переопредели метод move в классе Car, чтобы он выводил "Машина едет быстро".
+# Создай объект класса Car и вызови у него метод move.
+class Vehicle:
+    def move(self):
+        print(f"Транспорт едет")
+
+class Car(Vehicle):
+    def move(self):
+        print(f"Машина едет быстро")
+
+car = Car()
+car.move() #Вывод Машина едет быстро
 
 
 
