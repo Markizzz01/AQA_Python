@@ -1,5 +1,6 @@
 # Задача 1 (Арифметические операции)
 # Напиши код, который вычисляет сумму чисел 8 и 3, а затем выводит результат.
+from importlib.util import source_hash
 
 result = 8 + 3
 print(result) #Вывод 11
@@ -1445,6 +1446,728 @@ class Car(Vehicle):
 
 car = Car()
 car.move() #Вывод Машина едет быстро
+
+# Задача 152
+# Создай класс Car с атрибутами make и model.
+# Добавь метод display_info, который выводит строку
+# "<марка> <модель>".
+# Создай объект и вызови метод.
+class Car:
+    def __init__(self, make, model):
+        self.make = make
+        self.model = model
+
+    def display_info(self):
+        print(f"{self.make} {self.model}")
+
+
+car = Car("VW", "Passat")
+car.display_info() # Вывод VW Passat
+
+# Задача 153
+# Создай родительский класс Animal с методом sound(), который выводит "Животное издаёт звук".
+# Создай дочерний класс Cat, который переопределяет метод sound(), чтобы он выводил "Кошка мяукает".
+# Создай объект класса Cat и вызови метод sound().
+class Animal:
+    def sound(self):
+        print("Животное издает звук")
+
+
+class Cat(Animal):
+    def sound(self):
+        print("Кошка мяукает")
+
+
+cat = Cat()
+cat.sound() #Вывод Кошка мяукает
+# Задача 154
+# Создай родительский класс Vehicle с методом move(), который выводит "Транспорт движется".
+# Создай дочерний класс Bicycle, который наследует Vehicle и переопределяет метод move(), чтобы он выводил "Велосипед едет".
+# Создай объект класса Bicycle и вызови метод move().
+class Vehicle:
+    def move(self):
+        print("Транспорт движется")
+
+class Bicycle(Vehicle):
+    def move(self):
+        print("Велосипед eдет")
+
+vehicle = Bicycle()
+vehicle.move() #Вывод Велосипед eдет
+
+# Задача 155
+# Создай родительский класс Person с атрибутом name и методом greet(), который выводит "Привет, меня зовут {name}".
+# Создай дочерний класс Student, который наследует Person и добавляет атрибут course.
+# Переопредели метод greet() в классе Student, чтобы он выводил "Привет, меня зовут {name}, я учусь на курсе {course}".
+# Создай объект класса Student и вызови метод greet().
+# Родительский класс
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def greet(self):
+        print(f"Привет, меня зовут {self.name}")
+
+
+class Student(Person):
+    def __init__(self, name, course):
+        super().__init__(name)
+        self.course = course
+
+    def greet(self):
+        print(f"Привет, меня зовут {self.name}, я учусь на курсе {self.course}")
+
+
+student = Student("Алексей", "Python")
+student.greet()
+
+# Задача 156
+# Создай родительский класс Vehicle с атрибутом brand и методом drive(), который выводит "Транспорт {brand} едет".
+# Создай дочерний класс Car, который наследует Vehicle и добавляет атрибут model.
+# Переопредели метод drive() в классе Car, чтобы он выводил "Машина {brand} {model} едет быстро".
+# Создай объект класса Car и вызови метод drive().
+class Vehicle:
+    def __init__(self, brand):
+        self.brand = brand
+
+
+    def drive(self):
+        print(f"Транспорт {self.brand} едет")
+
+
+class Car(Vehicle):
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
+
+
+    def drive(self):
+        print(f"Машина {self.brand} {self.model} едет быстро")
+
+
+car = Car("Skoda","Superb")
+car.drive() # Вывод Машина Skoda Superb едет быстро
+
+# Задача 157
+# Создай родительский класс Animal с атрибутом name и методом speak(), который выводит "Животное {name} издаёт звук".
+# Создай дочерний класс Dog, который наследует Animal и добавляет атрибут breed.
+# Переопредели метод speak() в классе Dog, чтобы он выводил "Собака породы {breed} по кличке {name} лает".
+# Создай объект класса Dog и вызови метод speak().
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        print(f"Животное {self.name} издаёт звук.")
+
+
+class Dog(Animal):
+    def __init__(self, name, breed):
+        self.name = name
+        self.breed = breed
+
+    def speak(self):
+        print(f"Собака породы {self.breed} по кличке {self.name} лает")
+
+
+dog = Dog("Милка", "французский бульдог")
+dog.speak() # Вывод Собака породы французский бульдог по кличке Милка лает
+
+# Задача 158
+# Создай родительский класс Appliance с атрибутом brand и методом turn_on(), который выводит "Прибор {brand} включен".
+# Создай дочерний класс WashingMachine, который наследует Appliance и добавляет атрибут load_capacity.
+# Переопредели метод turn_on() в классе WashingMachine, чтобы он выводил "Стиральная машина {brand} с загрузкой {load_capacity} кг включена".
+# Создай объект класса WashingMachine и вызови метод turn_on().
+class Appliance:
+    def __init__(self, brand):
+        self.brand = brand
+
+
+    def turn_on(self):
+        print(f"Прибор {self.brand} включен")
+
+
+class WashingMachine(Appliance):
+    def __init__(self, brand, load_capacity):
+        self.brand = brand
+        self.load_capacity = load_capacity
+
+
+    def turn_on(self):
+        print(f"Стиральная машина {self.brand} с загрузкой {self.load_capacity} кг включена")
+
+
+wash = WashingMachine("LG",3)
+wash.turn_on()
+
+# Задача 159
+# Создай родительский класс Device с атрибутом brand и методом power_on(), который выводит "Устройство {brand} включено".
+# Создай дочерний класс Smartphone, который наследует Device и добавляет атрибут model.
+# Переопредели метод power_on() в классе Smartphone, чтобы он выводил "Смартфон {brand} {model} включен и готов к работе".
+# Создай объект класса Smartphone и вызови метод power_on().
+class Device:
+    def __init__(self, brand):
+        self.brand = brand
+
+    def power_on(self):
+        print(f"Устройство {self.brand} включено")
+
+
+class Smartphone(Device):
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
+
+    def power_on(self):
+        print(f"Смартфон {self.brand} {self.model} включен и готов к работе")
+
+
+phone = Smartphone("iPhone", 16)
+phone.power_on() # Вывод Смартфон Iphone 16 включен и готов к работе
+
+# ПОВТОРЕНИЕ МАТЕРИАЛА
+
+# Задача 1
+# Создай переменную age со значением 25.
+# Создай переменную name со значением "Алексей".
+# Выведи в консоль строку "Меня зовут {name}, мне {age} лет" с использованием f-строки.
+age = 25
+name = "Алексей"
+print(f"Меня зовут {name}, мне {age} лет")
+
+# Задача 2
+# Создай строку text со значением "Привет, мир!".
+# Выведи первую букву строки.
+# Выведи последние три буквы строки.
+# Преобразуй строку в верхний регистр и выведи результат.
+text = "Привет мир!"
+first_char = text[0]
+print(first_char)
+thre_char = text[-3:]
+print(thre_char)
+result = text.upper()
+print(result)
+
+# Задача 3
+# Создай список fruits со значениями "яблоко", "банан", "вишня".
+# Добавь в список элемент "апельсин".
+# Удали первый элемент списка.
+# Выведи длину списка и все его элементы.
+fruits = ["яблоко", "банан", "вишня"]
+fruits.append("апельсин")
+print(fruits)
+fruits.remove("яблоко")
+print(fruits)
+count = len(fruits)
+print(count)
+
+# Задача 4
+# Создай переменную temperature со значением 15.
+# Если температура больше 20, выведи "Тёпло".
+# Если температура от 10 до 20 включительно, выведи "Прохладно".
+# Иначе выведи "Холодно".
+temperature = 15
+if temperatura >= 20:
+    print("Тёпло")
+elif temperature >= 10 and temperature <= 20:
+    print("Прохладно")
+else:
+    print("Холодно")
+
+# Задача 5
+# Используя цикл for, выведи числа от 1 до 5 включительно.
+# Используя цикл while, увеличивай переменную x начиная с 0 на 2, пока x меньше 10, и выводи значение x на каждом шаге.
+for i in range(1,6):
+    print(i)
+
+x = 0
+while x < 10:
+    print(x)
+    x += 2
+
+# Задача 6
+# Создай переменную n со значением 7.
+# Используя цикл for, выведи все числа от 0 до n включительно, которые делятся на 2.
+# Используя цикл while, начинай с x = n и уменьшай x на 1, пока x не станет 0, выводя значение x на каждом шаге.
+for i in range(0, n + 1):
+    if i % 2 == 0:
+        print(i)
+
+x = n
+while x > 0:
+    print(x)
+    x -= 1
+
+# Задача 7
+# Создай файл "test.txt" и запиши в него строку "Привет, файл!".
+# Закрой файл.
+# Затем открой файл на чтение и выведи его содержимое.
+with open("text.txt", "w") as file:
+    file.write("Привет, файл!")
+
+with open("text.txt", "r", encoding= "utf-8") as file:
+    content = file.read()
+    print(content)
+
+# Задача 8
+# Создай функцию greet, которая принимает имя и выводит строку "Привет, {имя}!".
+# Вызови эту функцию два раза с разными именами.
+def greet(name):
+    print(f"Привет, {name}!")
+greet("Алиса")
+greet("Инфедория")
+
+# Задача 9
+# Создай функцию square, которая принимает число и возвращает его квадрат.
+# Сохрани результат вызова функции в переменную и выведи её значение.
+def square(number):
+    return number ** 2
+
+result = square(9)
+print(result)
+
+# Задача 10
+# Создай функцию greet_user, которая принимает имя пользователя и возраст.
+# Функция должна вывести строку вида:
+# "Привет, <имя>! Тебе <возраст> лет."
+# Вызови функцию хотя бы два раза с разными аргументами.
+def greet_user(name, age):
+    print(f"Привет, {name}! Тебе {age} лет.")
+
+greet_user("Мерф", 54)
+greet_user("Аля", 23)
+
+# Задача 11
+# Создай функцию add_numbers, которая принимает два числа и возвращает их сумму.
+# Сохрани результат вызова функции в переменную и выведи её значение.
+# Попробуй вызвать функцию с разными числами несколько раз.
+def add_numbers(a,b):
+    return a + b
+
+result = add_numbers(205.15, 10)
+print(result)
+result = add_numbers(115, 87)
+print(result)
+
+# Задача 12
+# Создай класс Car с атрибутом color.
+# Добавь метод show_color(), который выводит цвет машины.
+# Создай объект класса Car с цветом "красный" и вызови метод show_color().
+class Car:
+    def __init__(self,color):
+        self.color = color
+
+    def show_color(self):
+        print(self.color)
+
+
+my_car = Car("Белый")
+my_car.show_color()
+
+# Задача 13
+# Создай класс Book с атрибутом title.
+# Добавь метод show_title(), который выводит название книги.
+# Создай объект класса Book с названием "Война и мир" и вызови метод show_title().
+class Book:
+    def __init__(self, title):
+        self.title = title
+
+    def show_title(self):
+        print(self.title)
+
+my_book = Book("Война и мир")
+my_book.show_title()
+
+# Задача 14
+# Создай родительский класс Animal с методом sound(), который выводит "Животное издаёт звук".
+# Создай дочерний класс Dog, который наследует Animal.
+# Не переопределяй метод sound(), а просто создай объект класса Dog и вызови метод sound().
+class Animal:
+    def sound(self):
+        print("Животное издает звук")
+
+class Dog(Animal):
+    pass
+
+dog = Dog()
+dog.sound()
+
+# Задача 15
+# Создай родительский класс Animal с методом move(), который выводит "Животное двигается".
+# Создай дочерний класс Bird, который переопределяет метод move(), чтобы он выводил "Птица летает".
+# Создай объект класса Bird и вызови метод move().
+class Animal:
+    def move(self):
+        print("Животное двигается")
+
+class Bird(Animal):
+    def move(self):
+        print("Птица летает")
+
+
+bird = Bird()
+bird.move()
+
+# Задача 16
+# Создай класс Animal с методом __init__, который принимает name и sound, и сохраняет их как атрибуты.
+# Добавь метод make_sound(), который выводит "<имя> издает звук: <звук>".
+# Создай дочерний класс Cat, который наследует Animal и при создании всегда имеет sound = "мяу".
+# Создай объект кошки с именем "Мурка" и вызови метод make_sound().
+class Animal:
+    def __init__(self, name, sound):
+        self.name = name
+        self.sound = sound
+
+    def make_sound(self):
+        print(f"{self.name} издает звук: {self.sound}")
+
+
+class Cat(Animal):
+    def __init__(self, name):
+        super().__init__(name, "мяу")
+        self.sound = "мяу"
+
+
+an = Cat("Мурка")
+an.make_sound()
+# Задача 16
+# Создай класс Dog, который наследуется от Animal.
+# В конструкторе принимай только name.
+# При создании объекта всегда передавай в Animal звук "гав".
+# Создай собаку с именем "Шарик" и вызови метод make_sound().
+class Dog(Animal):
+    def __init__(self, name):
+        super().__init__(name, "гав")
+
+dog = Dog("Шарик")
+dog.make_sound()
+
+# Задача 17
+# Создай родительский класс Animal с методом make_sound(),
+# который выводит "<имя> издает звук".
+# Создай дочерний класс Cow, который переопределяет метод make_sound(),
+# чтобы он всегда выводил "<имя> мычит".
+# Создай объект класса Cow и вызови метод make_sound().
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+
+    def make_sound(self):
+        print(f"{self.name} издает звук")
+        
+
+
+class Cow(Animal):
+    def make_sound(self):
+        print(f"{self.name} мычит")
+
+cow = Cow("Корова")
+cow.make_sound()
+
+# Задача 18
+# Создай родительский класс Vehicle с атрибутом name.
+# В классе Vehicle сделай метод move(), который выводит "<name> двигается".
+# Создай три дочерних класса:
+# - Car (метод move() выводит "<name> едет по дороге")
+# - Boat (метод move() выводит "<name> плывёт по воде")
+# - Plane (метод move() выводит "<name> летит в небе")
+# Создай по одному объекту каждого класса и вызови метод move() для всех.
+class Vehicle:
+    def __init__(self, name):
+        self.name = name
+
+
+    def move(self):
+        print(f"{self.name} двигается")
+
+class Car(Vehicle):
+    def move(self):
+        print(f"{self.name} едет по дороге")
+
+class Boat(Vehicle):
+    def move(self):
+        print(f"{self.name} плывет по воде")
+
+
+class Plane(Vehicle):
+    def move(self):
+        print(f"{self.name} летит в небе")
+
+
+car = Car("Машина")
+boat = Boat("Катер")
+plane = Plane("Истребитель")
+
+car.move()
+boat.move()
+plane.move()
+# Задача 19
+# Создай родительский класс Appliance (Бытовой прибор) с атрибутом name.
+# Добавь метод turn_on(), который выводит "<прибор> включён".
+# Создай три дочерних класса:
+#  - WashingMachine (Стиральная машина), переопредели метод turn_on(), чтобы выводить "<прибор> начинает стирку".
+#  - Refrigerator (Холодильник), переопредели метод turn_on(), чтобы выводить "<прибор> охлаждает продукты".
+#  - Microwave (Микроволновка), переопредели метод turn_on(), чтобы выводить "<прибор> разогревает еду".
+# Создай по одному объекту каждого класса и вызови у них метод turn_on().
+class Appliance:
+    def __init__(self, name):
+        self.name = name
+
+
+    def turn_on(self):
+        print(f"{self.name} включен")
+
+
+
+class WashingMachine(Appliance):
+    def turn_on(self):
+        print(f"{self.name} начинает стирку")
+
+
+
+class Refrigerator(Appliance):
+    def turn_on(self):
+        print(f"{self.name} охлаждает продукты")
+
+
+
+class Microwave(Appliance):
+    def turn_on(self):
+        print(f"{self.name} разогревает еду")
+
+wash = WashingMachine("Стиральная машина")
+ref = Refrigerator("Холодильник")
+mic = Microwave("Микроволновка")
+
+wash.turn_on()
+ref.turn_on()
+mic.turn_on()
+
+#1. Создайте переменную `number` со значением 42.
+#2. Преобразуйте её в строку и сохраните в переменную #`number_str`.
+#3. Создайте переменную `text` со значением "The answer is: ".
+#4. Объедините строку `text` и строку `number_str` и сохраните #результат в переменную `result`.
+#5. Выведите на экран:
+#- значение и тип данных `number`,
+#- значение и тип данных `number_str`,
+#- значение и тип данных `text`,
+#- значение и тип данных `result`.
+number = 42
+number_str = str(number)
+text = "The answer is: "
+result = text + number_str
+print(type(number))
+print(type(number_str))
+print(type(text))
+print(type(result))
+
+#Задача 2. Строки
+#Даны две переменные:
+#name = "внесите ваше имя сюда"
+#age = введите ваш возраст.
+#Используя f-строку, выведите на экран сообщение: "Меня зовут #ваше имя, мне ваш возраст лет."
+name = "Алексей"
+age = 25
+print(f"Меня зовут {name}, мне {age}")
+
+#Задача 3. Списки
+#Дан список my_list = [1, 2, 3].
+#Создайте копию этого списка, измените первый элемент копии на #10 и выведите оба списка
+my_list = [1, 2, 3]
+copy_my_list = my_list.copy()
+copy_my_list[0] = 10
+print(my_list)
+print(copy_my_list)
+
+#Задача 4. Условные операторы
+#Напишите программу, которая принимает число от пользователя и #проверяет:
+# Если число больше 0, выведите "Положительное".
+# Если число равно 0, выведите "Ноль".
+# Если число меньше 0, выведите "Отрицательное".
+number = 8
+if number > 0:
+    print("Положительное")
+elif number == 0:
+    print("Ноль")
+else:
+    print("Отрицательное")
+
+
+# Задача 5. Словари
+# Дан словарь:
+person = {
+
+    "name": {
+
+        "first_name": "Иван",
+        "last_name": "Иванов"
+
+    },
+
+    "address": {
+
+        "city": "Москва",
+        "country": "Россия"
+
+    }
+
+}
+# Обновите значение ключа "city" на "Ставрополь" и добавьте #новый ключ "postal_code" со значением "333777" в словарь #"address".
+# Выведите значение через print.
+# Затем удалите ключ "city" из вложенного словаря "address" и #снова выведите значение через print.
+person = {
+
+    "name": {
+
+        "first_name": "Иван",
+        "last_name": "Иванов"
+
+    },
+
+    "address": {
+
+        "city": "Москва",
+        "country": "Россия"
+
+    }
+
+}
+person["address"]["city"] = "Cтаврополь"
+person["address"]["postal_code"] = "333777"
+print(person["address"])
+
+del person["address"]["city"]
+print(person["address"])
+
+#Задача 6. Циклы
+#Напишите цикл while, который выводит числа от 1 до 20, но
+#пропускает числа, которые делятся на 4 (используйте continue)
+x = 1
+while x <= 20:
+    if x % 4 == 0:
+        x += 1
+        continue
+    print(x)
+    x += 1
+#Задача 7. Файлы
+#Создайте файл с именем "fruits.txt" и запишите в него названия #фруктов:
+#"яблоко", "банан", "апельсин" (каждое с новой строки).
+#Затем откройте этот файл, прочитайте все строки и выведите на #экран только те строки, которые начинаются с буквы "а".
+# Запись фруктов в файл
+with open("fruits.txt", "w", encoding="utf-8") as file:
+    file.write("яблоко\n")
+    file.write("банан\n")
+    file.write("апельсин\n")
+
+with open("fruits.txt", "r", encoding="utf-8") as file:
+    lines = file.readlines()
+    for line in lines:
+        if line.startswith("а"):
+            print(line.strip())
+
+
+# Задача 8. Функции
+# Напишите функцию greet_user, которая приветствует пользователя #в зависимости от его роли и имени. Функция должна принимать #два параметра:
+# user_role (обязательный) — строка, указывающая роль #пользователя (например, "Администратор", "Гость", "Модератор").
+# user_name (необязательный) — строка с именем пользователя. По #умолчанию должно быть None.
+# Логика работы функции:
+# Если имя пользователя передано
+# (user_name не None и не пустая строка),
+# то функция должна вывести:
+# "Привет, {user_name}! Ваша роль: {user_role}."
+# Если имя не передано (user_name равно None или пустая #строка), функция должна вывести: "Привет, Гость! Ваша роль: #{user_role}."
+def greet_user(user_role, user_name=None):
+    if user_name:  # проверяем, что имя есть и не пустое
+        print(f"Привет, {user_name}! Ваша роль: {user_role}.")
+    else:
+        print(f"Привет, Гость! Ваша роль: {user_role}.")
+
+greet_user("Администратор", "Алексей")
+greet_user("Гость")
+greet_user("Модератор", "")
+
+
+#Задача 9. ООП ч.1
+#Создайте класс `Student`.
+#У класса должны быть атрибуты `name`  и `age`, которые #задаются при создании объекта через конструктор `__init__`.
+#Создай объект класса `Student` с вашим именем и вашим возрастом.
+#Выведи на экран имя и возраст студента.
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def show_info(self):
+        print(self.name, self.age)
+
+student = Student("Алексей", 34)
+student.show_info()
+
+
+
+#Задача 10. ООП ч.2
+#Создайте класс Animal с атрибутами:
+#name (кличка животного)
+#species (вид животного, например "собака")
+#И методами:
+#eat()
+#sleep()
+#Затем создайте дочерний класс Dog, который:
+#Наследует все от класса Animal
+#Имеет дополнительный метод bark() (лаять)
+#Задание:
+# Создайте объект my_dog класса Dog с любым именем
+# Вызовите все три метода eat(), sleep(), bark() и выведите #результаты
+class Animal:
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
+
+    def eat(self):
+        pass
+
+    def sleep(self):
+        pass
+
+class Dog(Animal):
+    def __init__(self, name, species):
+        super().__init__(name, species)
+
+    def bark(self):
+        pass
+
+my_dog = Dog("Шарик", "собака")
+
+my_dog.eat()
+my_dog.sleep()
+my_dog.bark()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
