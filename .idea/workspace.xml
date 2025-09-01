@@ -5,13 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bda6e8d-a398-4d2c-b0f8-9370c7b31f3e" name="Changes" comment="tasks add">
+      <change afterPath="$PROJECT_DIR$/Python_Course/01_python_variables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Course/02_python_strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Course/03_python_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Course/04_python_conditionals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Course/05_python_dictionaries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Course/06_python_loops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Course/07_python_files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Course/08_python_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Course/09_python_OOP_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Course/10_python_OOP_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Course/python_Revision.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/01_open_browser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/02_find_click.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/03_text_input.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testaqa/qa.py" beforeDir="false" afterPath="$PROJECT_DIR$/testaqa/qa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testaqa/qa.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Course/Python_All.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testaqa/test_selenium.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,7 +72,9 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python._pydev_execfile.executor": "Run",
+    "Python.markiz.executor": "Run",
     "Python.qa.executor": "Run",
+    "Python.test_selenium.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -61,6 +85,11 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Selenium" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/testaqa" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -174,7 +203,23 @@
       <option name="project" value="LOCAL" />
       <updated>1754507447377</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="tasks add">
+      <option name="closed" value="true" />
+      <created>1755713575757</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1755713575757</updated>
+    </task>
+    <task id="LOCAL-00014" summary="tasks add">
+      <option name="closed" value="true" />
+      <created>1755713734224</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1755713734224</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
