@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bda6e8d-a398-4d2c-b0f8-9370c7b31f3e" name="Changes" comment="tasks add">
-      <change afterPath="$PROJECT_DIR$/Python_Course/01_python_variables.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Course/02_python_strings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Course/03_python_lists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Course/04_python_conditionals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Course/05_python_dictionaries.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Course/06_python_loops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Course/07_python_files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Course/08_python_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Course/09_python_OOP_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Course/10_python_OOP_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Course/python_Revision.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/01_open_browser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/02_find_click.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/03_text_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/03_text_Current_Address.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/03_text_Permanent_Address.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/03_text_input_email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/04_browser_options.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testaqa/qa.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Course/Python_All.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testaqa/test_selenium.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/03_text_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/03_text_input_name.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +60,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.03_text_Current_Address.executor": "Run",
+    "Python.03_text_Permanent_Address.executor": "Run",
+    "Python.03_text_input_email.executor": "Run",
+    "Python.03_text_input_name.executor": "Run",
+    "Python.04_browser_options.executor": "Run",
     "Python._pydev_execfile.executor": "Run",
     "Python.markiz.executor": "Run",
     "Python.qa.executor": "Run",
@@ -219,7 +213,31 @@
       <option name="project" value="LOCAL" />
       <updated>1755713734224</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="tasks add">
+      <option name="closed" value="true" />
+      <created>1756745149743</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1756745149743</updated>
+    </task>
+    <task id="LOCAL-00016" summary="tasks add">
+      <option name="closed" value="true" />
+      <created>1756745175541</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1756745175541</updated>
+    </task>
+    <task id="LOCAL-00017" summary="tasks add">
+      <option name="closed" value="true" />
+      <created>1756745222511</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1756745222511</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

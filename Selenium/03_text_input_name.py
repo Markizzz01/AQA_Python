@@ -1,5 +1,9 @@
 # Работа с текстовыми полями и клавиатурой (send_keys, clear, assert, Keys)
 
+# ДЗ Закрепите пройденный материал на сайте https://demoqa.com/text-box
+# 1. Заполните все текстовые поля данными (почистить поля перед заполнением).
+# 2. Проверьте, что данные действительно введены, используя **get_attribute()** и **assert**.
+
 from selenium import webdriver
 import time
 
@@ -15,3 +19,4 @@ assert fullName_field.get_attribute("value") == "Alex"
 
 time.sleep(5)
 driver.quit()
+
