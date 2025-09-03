@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bda6e8d-a398-4d2c-b0f8-9370c7b31f3e" name="Changes" comment="tasks add">
-      <change afterPath="$PROJECT_DIR$/Selenium/03_text_Current_Address.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/03_text_Permanent_Address.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/03_text_input_email.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/04_browser_options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/04_browser_options_all.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/04_upload file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium/03_text_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/03_text_input_name.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/03_text_input_name.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/03_text_input_name.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +63,8 @@
     "Python.03_text_input_email.executor": "Run",
     "Python.03_text_input_name.executor": "Run",
     "Python.04_browser_options.executor": "Run",
+    "Python.04_upload file.executor": "Run",
+    "Python.05_browser_options.executor": "Run",
     "Python._pydev_execfile.executor": "Run",
     "Python.markiz.executor": "Run",
     "Python.qa.executor": "Run",
@@ -237,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756745222511</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="tasks add">
+      <option name="closed" value="true" />
+      <created>1756805596559</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1756805596559</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
