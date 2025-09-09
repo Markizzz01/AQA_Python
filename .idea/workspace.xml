@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bda6e8d-a398-4d2c-b0f8-9370c7b31f3e" name="Changes" comment="tasks add">
+      <change afterPath="$PROJECT_DIR$/Selenium/05_expectation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/05_expectation_02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Selenium/04_upload file.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/04_upload file.py" afterDir="false" />
     </list>
@@ -63,6 +65,8 @@
     "Python.04_browser_options.executor": "Run",
     "Python.04_upload file.executor": "Run",
     "Python.05_browser_options.executor": "Run",
+    "Python.05_expectation.executor": "Run",
+    "Python.05_expectation_02.executor": "Run",
     "Python._pydev_execfile.executor": "Run",
     "Python.markiz.executor": "Run",
     "Python.qa.executor": "Run",
@@ -251,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756916094848</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="tasks add">
+      <option name="closed" value="true" />
+      <created>1756916664618</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1756916664618</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

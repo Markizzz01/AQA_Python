@@ -20,6 +20,8 @@ print(uploaded_file_path)  # Выводим на консоль путь к за
 time.sleep(5)  # Пауза в 5 секунд, чтобы можно было увидеть изменения на странице перед закрытием браузера
 driver.quit()  # Закрываем браузер и завершаем сессию Selenium
 
+
+
 from selenium import webdriver
 import time
 
