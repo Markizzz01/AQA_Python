@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bda6e8d-a398-4d2c-b0f8-9370c7b31f3e" name="Changes" comment="tasks add">
-      <change afterPath="$PROJECT_DIR$/Selenium/05_expectation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/05_expectation_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/05_expectation_03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/06_user_agent_alerts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/07_cookies_load_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/07_cookies_save.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium/04_upload file.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/04_upload file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/03_text_Permanent_Address.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/03_text_Permanent_Address_04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/03_text_input_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/03_text_input_email_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/03_text_input_name.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/03_text_input_name_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/04_browser_options_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/04_browser_options_all_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/04_upload file.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/04_upload file_03.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +73,12 @@
     "Python.05_browser_options.executor": "Run",
     "Python.05_expectation.executor": "Run",
     "Python.05_expectation_02.executor": "Run",
+    "Python.05_expectation_03.executor": "Run",
+    "Python.06_user_agent_alerts.executor": "Run",
+    "Python.07_cookies.executor": "Run",
+    "Python.07_cookies_load_02.executor": "Run",
+    "Python.07_cookies_save.executor": "Run",
+    "Python.WORk.executor": "Run",
     "Python._pydev_execfile.executor": "Run",
     "Python.markiz.executor": "Run",
     "Python.qa.executor": "Run",
@@ -263,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756916664618</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="tasks add">
+      <option name="closed" value="true" />
+      <created>1757452031997</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1757452031997</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
