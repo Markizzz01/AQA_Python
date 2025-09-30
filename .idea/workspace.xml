@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bda6e8d-a398-4d2c-b0f8-9370c7b31f3e" name="Changes" comment="tasks add">
-      <change afterPath="$PROJECT_DIR$/Selenium/08_checkbox.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/08_dropdown.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/08_radio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/09_action_chains.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/09_action_chains_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/09_action_chains_03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/09_action_chains_04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/09_action_chains_05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/10_selenium_homework_final.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/10_selenium_homework_final_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyTest/test_login_demoqa.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +56,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for test_login_demoqa.TestDemoQAFlow.test_search_book.executor": "Run",
+    "Python tests.Python tests for test_login_demoqa.TestDemoQAFlow.test_search_book_negative.executor": "Run",
+    "Python tests.Python tests for test_login_demoqa.TestDemoQAFlowNegative.executor": "Run",
+    "Python tests.Python tests for test_login_demoqa.TestLogin.executor": "Run",
+    "Python tests.Python tests for test_login_demoqa.TestLoginDemoQA.executor": "Run",
+    "Python tests.Python tests in 10_selenium_homework_final_2.py.executor": "Run",
+    "Python tests.Python tests in test_login_demoqa.py.executor": "Run",
     "Python.03_text_Current_Address.executor": "Run",
     "Python.03_text_Permanent_Address.executor": "Run",
     "Python.03_text_input_email.executor": "Run",
@@ -110,6 +108,92 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/testaqa" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_login_demoqa.TestDemoQAFlowNegative">
+    <configuration name="Python tests for test_login_demoqa.TestDemoQAFlowNegative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login_demoqa.TestDemoQAFlowNegative&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_login_demoqa.TestDemoQAFlow.test_search_book" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login_demoqa.TestDemoQAFlow.test_search_book&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_login_demoqa.TestDemoQAFlow.test_search_book_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login_demoqa.TestDemoQAFlow.test_search_book_negative&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_login_demoqa.TestLogin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login_demoqa.TestLogin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_login_demoqa.TestLoginDemoQA" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login_demoqa.TestLoginDemoQA&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_login_demoqa.TestDemoQAFlowNegative" />
+        <item itemvalue="Python tests.Python tests for test_login_demoqa.TestDemoQAFlow.test_search_book_negative" />
+        <item itemvalue="Python tests.Python tests for test_login_demoqa.TestDemoQAFlow.test_search_book" />
+        <item itemvalue="Python tests.Python tests for test_login_demoqa.TestLogin" />
+        <item itemvalue="Python tests.Python tests for test_login_demoqa.TestLoginDemoQA" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -302,7 +386,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757694960869</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="tasks add">
+      <option name="closed" value="true" />
+      <created>1758734591714</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1758734591714</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
