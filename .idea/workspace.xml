@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bda6e8d-a398-4d2c-b0f8-9370c7b31f3e" name="Changes" comment="tasks add">
-      <change afterPath="$PROJECT_DIR$/PyTest/test_login_demoqa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyTest/test_pytest_reruns_marks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,59 +53,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for test_login_demoqa.TestDemoQAFlow.test_search_book.executor": "Run",
-    "Python tests.Python tests for test_login_demoqa.TestDemoQAFlow.test_search_book_negative.executor": "Run",
-    "Python tests.Python tests for test_login_demoqa.TestDemoQAFlowNegative.executor": "Run",
-    "Python tests.Python tests for test_login_demoqa.TestLogin.executor": "Run",
-    "Python tests.Python tests for test_login_demoqa.TestLoginDemoQA.executor": "Run",
-    "Python tests.Python tests in 10_selenium_homework_final_2.py.executor": "Run",
-    "Python tests.Python tests in test_login_demoqa.py.executor": "Run",
-    "Python.03_text_Current_Address.executor": "Run",
-    "Python.03_text_Permanent_Address.executor": "Run",
-    "Python.03_text_input_email.executor": "Run",
-    "Python.03_text_input_name.executor": "Run",
-    "Python.04_browser_options.executor": "Run",
-    "Python.04_upload file.executor": "Run",
-    "Python.05_browser_options.executor": "Run",
-    "Python.05_expectation.executor": "Run",
-    "Python.05_expectation_02.executor": "Run",
-    "Python.05_expectation_03.executor": "Run",
-    "Python.06_user_agent_alerts.executor": "Run",
-    "Python.07_cookies.executor": "Run",
-    "Python.07_cookies_load_02.executor": "Run",
-    "Python.07_cookies_save.executor": "Run",
-    "Python.08_checkbox.executor": "Run",
-    "Python.08_dropdown.executor": "Run",
-    "Python.08_radio.executor": "Run",
-    "Python.09_action_chains.executor": "Run",
-    "Python.09_action_chains_02.executor": "Run",
-    "Python.09_action_chains_03.executor": "Run",
-    "Python.09_action_chains_04.executor": "Run",
-    "Python.09_action_chains_05.executor": "Run",
-    "Python.10_selenium_homework_final.executor": "Run",
-    "Python.10_selenium_homework_final_2.executor": "Run",
-    "Python.WORk.executor": "Run",
-    "Python._pydev_execfile.executor": "Run",
-    "Python.markiz.executor": "Run",
-    "Python.qa.executor": "Run",
-    "Python.test_selenium.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/lesaegoruskov/PycharmProjects/AQA_Python",
-    "settings.editor.selected.configurable": "terminal"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_login_demoqa.TestDemoQAFlow.test_search_book.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_demoqa.TestDemoQAFlow.test_search_book_negative.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_demoqa.TestDemoQAFlowNegative.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_demoqa.TestLogin.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_demoqa.TestLoginDemoQA.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in 10_selenium_homework_final_2.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_login_demoqa.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_text_Current_Address.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_text_Permanent_Address.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_text_input_email.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_text_input_name.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_browser_options.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_upload file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_browser_options.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_expectation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_expectation_02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_expectation_03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_user_agent_alerts.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_cookies.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_cookies_load_02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_cookies_save.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08_checkbox.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08_dropdown.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08_radio.executor&quot;: &quot;Run&quot;,
+    &quot;Python.09_action_chains.executor&quot;: &quot;Run&quot;,
+    &quot;Python.09_action_chains_02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.09_action_chains_03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.09_action_chains_04.executor&quot;: &quot;Run&quot;,
+    &quot;Python.09_action_chains_05.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10_selenium_homework_final.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10_selenium_homework_final_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WORk.executor&quot;: &quot;Run&quot;,
+    &quot;Python._pydev_execfile.executor&quot;: &quot;Run&quot;,
+    &quot;Python.markiz.executor&quot;: &quot;Run&quot;,
+    &quot;Python.qa.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_selenium.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lesaegoruskov/PycharmProjects/AQA_Python&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Selenium" />
+      <recent name="$PROJECT_DIR$/PyTest" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Selenium" />
       <recent name="$PROJECT_DIR$/testaqa" />
     </key>
   </component>
@@ -394,7 +395,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758734591714</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="tasks add">
+      <option name="closed" value="true" />
+      <created>1759256624424</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1759256624424</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
