@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bda6e8d-a398-4d2c-b0f8-9370c7b31f3e" name="Changes" comment="tasks add">
-      <change afterPath="$PROJECT_DIR$/PyTest/test_pytest_reruns_marks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyTest/test_fixtures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,8 +105,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/PyTest" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/PyTest" />
       <recent name="$PROJECT_DIR$/Selenium" />
       <recent name="$PROJECT_DIR$/testaqa" />
     </key>
@@ -403,7 +404,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759256624424</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="tasks add">
+      <option name="closed" value="true" />
+      <created>1759438538702</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1759438538702</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
