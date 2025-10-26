@@ -15,8 +15,8 @@ class TestSauceDemo:
     @allure.title("Процесс покупки товара на https://www.saucedemo.com/")
     @allure.severity(Severity.NORMAL)
     @allure.link(url="https://confluence.com", name="Documentation")
-    def test_login(self):
-        with allure.step("Open login page"):
+    def test_process_full(self):
+        with allure.step("Open login page. Step 1"):
             self.driver.get("https://www.saucedemo.com/")
             allure.attach(
                 body=self.driver.get_screenshot_as_png(),
@@ -30,14 +30,13 @@ class TestSauceDemo:
             self.driver.find_element("xpath", "//input[@id='password']").clear()
             self.driver.find_element("xpath", "//input[@id='password']").send_keys("secret_sauce")
             self.driver.find_element("xpath", "//input[@id='login-button']").click()
-
             allure.attach(
                 body=self.driver.get_screenshot_as_png(),
                 name="After login click",
                 attachment_type=AttachmentType.PNG
             )
 
-        with allure.step("Verify successful login"):
+        with allure.step("Verify successful login.Step 2"):
             header = WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(("xpath", "//span[@class='title']")))
             assert header.is_displayed(), "Login failed, header not visible"
             allure.attach(

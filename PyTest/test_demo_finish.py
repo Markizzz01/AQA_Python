@@ -6,7 +6,6 @@ from allure_commons.types import Severity, AttachmentType
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from Python_Course.Python_All import names
 
 
 @allure.epic("DemoQA.com")
@@ -72,7 +71,7 @@ class TestDemoQAAuth:
 
 
 @allure.epic("Accounts")
-@allure.feature("Book Searc")
+@allure.feature("Book Search")
 @allure.story("Search Positive")
 @pytest.mark.usefixtures("driver")
 class TestDemoQABook:
